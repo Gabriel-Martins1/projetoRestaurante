@@ -54,8 +54,8 @@ nav a{
 
 }
 
-nav a :hover {
-    background-color: rgba(0,0,0,0,2);
+nav a:hover {
+    background-color: rgba(0,0,0,0.2);
 }
 
 /* agora eh a parte principal */ 
@@ -125,7 +125,7 @@ form{
      flex-direction: column;
      gap: 10px;               
      max-width: 540px;  
-    margin: 0 auto;      
+    margin: auto;      
 }
 
 /* Ajeitando o nomezinho em cima do input (nome, e-mail...) */
@@ -162,7 +162,7 @@ form button {
      font-weight: 750;
      cursor: pointer;
 }
- 
+
 /* rodapé */
 footer {
     background-color: var(--cor-primaria);
