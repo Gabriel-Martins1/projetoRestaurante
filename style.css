@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+:root{
+    --cor-primaria:  rgb(0, 128, 122);
+    --cor-texto: #444444;
+    --cor-fundo:  #eaeaeaf8;
+    --cor-secundaria: #906e1f;
+
+
+}
+/* do corpo todo */
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  line-height: 1.6;
+}
+/* cor do cabeçalho  e colocando no centro*/
+header{
+    
+    background-color: var(--cor-primaria);
+    color: white;
+    font-size:large;
+    text-align: center;
+}
+
+header h1{
+    font-family: 'Playfair Display', serif;
+    font-size:  3rem;
+    margin-bottom
+}
+
+
+/* mexendo na lista */
+nav ul {
+    
+}
+
+
+
